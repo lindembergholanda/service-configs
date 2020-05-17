@@ -1,0 +1,3 @@
+service:
+  maxEvents: 10
+  minEvents: 1
