@@ -30,10 +30,10 @@ spring:
         password: '123456'
         platform: postgresql
         schema: classpath:/sql/schema.sql
-        url: jdbc:postgresql://localhost:5432/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:postgresql://localhost:5432/oauth
         username: postgres
     jpa:
-        database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
         generate-ddl: false
         hibernate:
             ddl-auto: none
